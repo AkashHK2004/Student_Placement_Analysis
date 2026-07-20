@@ -20,7 +20,20 @@ CREATE TABLE students (
     HSC_Marks DECIMAL(5,2),
     PlacementStatus VARCHAR(20)
 );
-
+SELECT * FROM students;
+SELECT COUNT(*) AS Total_Students
+FROM students;
+DESCRIBE students;
+SELECT *
+FROM students
+WHERE StudentID IS NULL;
+SELECT StudentID, COUNT(*)
+FROM students
+GROUP BY StudentID
+HAVING COUNT(*) > 1;
+SELECT PlacementStatus, COUNT(*) AS Count
+FROM students
+GROUP BY PlacementStatus;
 
 
 
