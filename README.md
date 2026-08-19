@@ -35,5 +35,7 @@ Analyzes academic and placement records for 10,000 students to find what actuall
 
 ## 👨‍💻 Author
 **Akash H K**
+
 *Aspiring Data Analyst*
+
 [LinkedIn](https://www.linkedin.com/in/your-profile-here) | [GitHub](https://github.com/AkashHK2004)
